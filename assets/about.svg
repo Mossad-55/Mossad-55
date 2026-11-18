@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="422" viewBox="0 0 1200 422" role="img" aria-label="About Me">
+  <title>About Me</title>
+  <style></style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117"/><stop offset="100%" stop-color="#11151D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#512BD4"/><stop offset="100%" stop-color="#8A63F5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8A63F5" stop-opacity="0.06"/><stop offset="100%" stop-color="#8A63F5" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame"><rect width="1200" height="422" rx="20"/></clipPath>
+    
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="422" fill="url(#bg)"/>
+    <circle cx="1080" cy="0" r="320" fill="url(#glow)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="421" rx="20" fill="none" stroke="#2A303B"/>
+  <rect x="48" y="46" width="5" height="30" rx="2.5" fill="url(#accent)"/>
+  <text x="68" y="70" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="26" font-weight="700" fill="#F0F3F6">About Me</text>
+  <text x="1152" y="69" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="15" fill="#6E7681" text-anchor="end">Backend .NET Developer · Egypt</text>
+  <rect x="48" y="96" width="1104" height="1" fill="#2A303B"/>
+  <text x="48" y="141" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="18" fill="#C9D1D9" xml:space="preserve">I&#x27;m Mossad, a <tspan font-weight="700" fill="#F0F3F6">.NET developer</tspan> based in Egypt. I work remotely at <tspan font-weight="700" fill="#F0F3F6">Takamol</tspan> and take on freelance projects</text><text x="48" y="172" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="18" fill="#C9D1D9" xml:space="preserve">through <tspan font-weight="700" fill="#F0F3F6">Upwork</tspan> and <tspan font-weight="700" fill="#F0F3F6">Mostaql</tspan>. My work includes new APIs, payment integrations and updates to older backends.</text><text x="48" y="203" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="18" fill="#C9D1D9" xml:space="preserve">At Takamol, I built the backend for <tspan font-weight="700" fill="#F0F3F6">Ahlena</tspan>, a platform connecting families with caregivers and care homes.</text><text x="48" y="234" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="18" fill="#C9D1D9" xml:space="preserve">Before that, I studied Computer Science at <tspan font-weight="700" fill="#F0F3F6">Damanhur University</tspan> and ran problem-solving sessions with the ICPC community.</text><rect x="48.5" y="270.5" width="257.0" height="103" rx="14" fill="#151922" stroke="#2A303B"/><rect x="72.0" y="294" width="22" height="3" rx="1.5" fill="url(#accent)"/><text x="72.0" y="334" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="30" font-weight="700" fill="#F0F3F6">5,800+</text><text x="72.0" y="358" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="15" fill="#9DA7B3">automated tests on Ahlena</text><rect x="330.5" y="270.5" width="257.0" height="103" rx="14" fill="#151922" stroke="#2A303B"/><rect x="354.0" y="294" width="22" height="3" rx="1.5" fill="url(#accent)"/><text x="354.0" y="334" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="30" font-weight="700" fill="#F0F3F6">9</text><text x="354.0" y="358" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="15" fill="#9DA7B3">business modules designed</text><rect x="612.5" y="270.5" width="257.0" height="103" rx="14" fill="#151922" stroke="#2A303B"/><rect x="636.0" y="294" width="22" height="3" rx="1.5" fill="url(#accent)"/><text x="636.0" y="334" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="30" font-weight="700" fill="#F0F3F6">2023</text><text x="636.0" y="358" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="15" fill="#9DA7B3">CS degree · Damanhur</text><rect x="894.5" y="270.5" width="257.0" height="103" rx="14" fill="#151922" stroke="#2A303B"/><rect x="918.0" y="294" width="22" height="3" rx="1.5" fill="url(#accent)"/><text x="918.0" y="334" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="30" font-weight="700" fill="#F0F3F6">AR / EN</text><text x="918.0" y="358" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="15" fill="#9DA7B3">Ahlena&#x27;s two languages</text>
+</svg>

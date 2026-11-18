@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="407" viewBox="0 0 1200 407" role="img" aria-label="Beyond the Code">
+  <title>Beyond the Code</title>
+  <style></style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117"/><stop offset="100%" stop-color="#11151D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#512BD4"/><stop offset="100%" stop-color="#8A63F5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8A63F5" stop-opacity="0.06"/><stop offset="100%" stop-color="#8A63F5" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame"><rect width="1200" height="407" rx="20"/></clipPath>
+    
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="407" fill="url(#bg)"/>
+    <circle cx="1080" cy="0" r="320" fill="url(#glow)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="406" rx="20" fill="none" stroke="#2A303B"/>
+  <rect x="48" y="46" width="5" height="30" rx="2.5" fill="url(#accent)"/>
+  <text x="68" y="70" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="26" font-weight="700" fill="#F0F3F6">Beyond the Code</text>
+  <text x="1152" y="69" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="15" fill="#6E7681" text-anchor="end">current work and community</text>
+  <rect x="48" y="96" width="1104" height="1" fill="#2A303B"/>
+  <rect x="48.5" y="129.5" width="539.0" height="229" rx="14" fill="#151922" stroke="#2A303B"/><text x="76.0" y="171" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.6" fill="#8A63F5">RIGHT NOW</text><rect x="76.0" y="206" width="3" height="20" rx="1.5" fill="url(#accent)"/><text x="92.0" y="221" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="16" fill="#9DA7B3" xml:space="preserve"><tspan font-weight="700" fill="#F0F3F6">At work</tspan>  maintaining ASP.NET Core products</text><rect x="76.0" y="254" width="3" height="20" rx="1.5" fill="url(#accent)"/><text x="92.0" y="269" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="16" fill="#9DA7B3" xml:space="preserve"><tspan font-weight="700" fill="#F0F3F6">On GitHub</tspan>  TheZone and C# problem solving</text><rect x="76.0" y="302" width="3" height="20" rx="1.5" fill="url(#accent)"/><text x="92.0" y="317" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="16" fill="#9DA7B3" xml:space="preserve"><tspan font-weight="700" fill="#F0F3F6">Freelance</tspan>  APIs and C# automation for clients</text><rect x="612.5" y="129.5" width="539.0" height="229" rx="14" fill="#151922" stroke="#2A303B"/><text x="640.0" y="171" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.6" fill="#8A63F5">OUTSIDE CLIENT WORK</text><rect x="640.0" y="206" width="3" height="20" rx="1.5" fill="url(#accent)"/><text x="656.0" y="221" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="16" fill="#9DA7B3" xml:space="preserve"><tspan font-weight="700" fill="#F0F3F6">ICPC</tspan>  ran university problem-solving sessions</text><rect x="640.0" y="254" width="3" height="20" rx="1.5" fill="url(#accent)"/><text x="656.0" y="269" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="16" fill="#9DA7B3" xml:space="preserve"><tspan font-weight="700" fill="#F0F3F6">GDSC</tspan>  taught Java, from basics to advanced topics</text><rect x="640.0" y="302" width="3" height="20" rx="1.5" fill="url(#accent)"/><text x="656.0" y="317" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="16" fill="#9DA7B3" xml:space="preserve"><tspan font-weight="700" fill="#F0F3F6">LeetCode</tspan>  my solutions are written in C#</text>
+</svg>

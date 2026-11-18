@@ -1,0 +1,44 @@
+name: Refresh profile activity
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-activity
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: cyprieng/github-breakout@v1
+        with:
+          github_username: ${{ github.repository_owner }}
+          paddle_color: "#8A63F5"
+          ball_color: "#8A63F5"
+          bricks_colors: "#2A1C5C,#3D2A8A,#512BD4,#7A55EE,#B9A5FF"
+      - name: Prepare game input
+        run: |
+          mkdir -p ../github-breakout/out
+          cp output/custom.svg ../github-breakout/out/custom.svg
+      - name: Build aligned activity panels
+        run: python tools/build_activity.py
+      - name: Commit changed activity assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/activity.svg assets/breakout.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh profile activity"
+            git push
+          fi
