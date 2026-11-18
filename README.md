@@ -1,10 +1,10 @@
 <img src="assets/header.svg" width="100%" alt="Mossad Ahmed — .NET Backend Developer" />
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/moss-ad-ahmed-28aaa6203/">LinkedIn</a> ·
-  <a href="mailto:mosad55522@gmail.com">mosad55522@gmail.com</a> ·
-  <a href="tel:+201021417408">+20 102 141 7408</a> ·
-  <a href="https://leetcode.com/u/Mossad/">LeetCode</a>
+  <a href="mailto:mosad55522@gmail.com"><img src="assets/contact-email.svg" width="24%" alt="Email: mosad55522@gmail.com" /></a>
+  <a href="tel:+201021417408"><img src="assets/contact-phone.svg" width="24%" alt="Phone: +20 102 141 7408" /></a>
+  <a href="https://www.linkedin.com/in/moss-ad-ahmed-28aaa6203/"><img src="assets/contact-linkedin.svg" width="24%" alt="Visit Mossad Ahmed on LinkedIn" /></a>
+  <a href="https://leetcode.com/u/Mossad/"><img src="assets/contact-leetcode.svg" width="24%" alt="Visit Mossad on LeetCode" /></a>
 </p>
 
 <img src="assets/about.svg" width="100%" alt="About me — Backend .NET developer at Takamol and freelance API developer." />
@@ -33,3 +33,10 @@
 <img src="assets/breakout.svg" width="100%" alt="Breakout animation of my contribution graph." />
 
 <a href="mailto:mosad55522@gmail.com"><img src="assets/footer.svg" width="100%" alt="Get in touch — mosad55522@gmail.com · +20 102 141 7408" /></a>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/moss-ad-ahmed-28aaa6203/">LinkedIn</a> &middot;
+  <a href="https://leetcode.com/u/Mossad/">LeetCode</a> &middot;
+  <a href="mailto:mosad55522@gmail.com">Email</a> &middot;
+  <a href="tel:+201021417408">Phone</a>
+</p>

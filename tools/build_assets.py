@@ -18,7 +18,7 @@ def save(name: str, svg: str) -> None:
 
 # ------------------------------------------------------------------ header
 def header() -> None:
-    H = 470
+    H = 362
     k, t, s, p, v, n = "#569CD6", "#4EC9B0", "#CE9178", "#D4D4D4", "#9CDCFE", "#B5CEA8"
     code = [
         [("Ahlena / backend", TEXT)],
@@ -71,13 +71,25 @@ def header() -> None:
   <text x="{cx + 40}" y="{cy + 27}" font-family="{MONO}" font-size="12" fill="#8B949E">PROJECT NOTES</text>
   <text x="{cx + cw - 24}" y="{cy + 27}" font-family="{MONO}" font-size="12" fill="#8B949E" text-anchor="end">Takamol · private</text>
   {''.join(rows)}
-  <rect x="{PAD}" y="360" width="{INNER}" height="1" fill="{STROKE}"/>
-  {''.join(contact_svg)}"""
+"""
     style = (".ln{animation:fade .5s ease backwards}.up{animation:rise .8s ease backwards}"
              ".cursor{animation:blink 1.1s step-end infinite}.pulse{animation:pulse 2s ease-in-out infinite}"
              "@keyframes fade{from{opacity:0}}@keyframes rise{from{opacity:0;transform:translateY(6px)}}"
              "@keyframes blink{50%{opacity:0}}@keyframes pulse{50%{opacity:.3}}")
     save("header", panel("", "", H, body, style=style, label="Mossad Ahmed - .NET Backend Developer"))
+    # Separate linked images work in GitHub READMEs; links inside an SVG image do not.
+    for name, label, value in [
+        ("email", "EMAIL", "mosad55522@gmail.com"),
+        ("phone", "PHONE", "+20 102 141 7408"),
+        ("linkedin", "LINKEDIN", "Mossad Ahmed"),
+        ("leetcode", "LEETCODE", "Mossad"),
+    ]:
+        save("contact-" + name, f"""<svg xmlns="http://www.w3.org/2000/svg" width="288" height="82" viewBox="0 0 288 82" role="img" aria-label="{esc(label + ': ' + value)}">
+<rect x="0.5" y="0.5" width="287" height="81" rx="12" fill="#151922" stroke="{STROKE}"/>
+<text x="20" y="27" font-family="{SANS}" font-size="11" font-weight="700" letter-spacing="1.3" fill="{LILAC}">{label}</text>
+<text x="20" y="56" font-family="{SANS}" font-size="17" fill="{TEXT}">{esc(value)}</text>
+<path d="M260 24 h7 v7 M267 24 l-9 9" fill="none" stroke="{MUTED}" stroke-width="1.5"/>
+</svg>""")
 
 
 # ------------------------------------------------------------------ about
